@@ -6,82 +6,112 @@
 		float: left;
 		border: 2px solid black;
 		background-color: gray;
-		margin: 2px;
+		
 	}
 	.ad1{
 		width: 28%;
 		margin-left: 2%;
 		margin-right: 2%;
-		height: 100%;
+		height: 50%;
 	}
 	.ad2{
 		width: 28%;
 		margin-left: 2%;
 		margin-right: 2%;
-		height: 100%;
+		height: 50%;
 	}
 	.ad3{
 		width: 28%;
 		margin-left: 2%;
 		margin-right: 2%;
-		height: 100%;
+		height: 50%;
 	}
 }
 @media (min-width:  768px) and (max-width: 991px){
 	.ad1, .ad2, .ad3{
 		float: left;
-		border: 1px solid black;
+		border: 2px solid black;
+		background-color: gray;
 	}
 	.ad1{
 		width: 40%;
-		margin-left: 10%;
-		margin-right: 10%;
-		height: 100%;	
+		margin-left: 5%;
+		margin-right: 2%;
+		height: 48%;	
 	}
 	.ad2{
 		width: 40%;
-		margin-left: 2%;
+		margin-left: 4%;
 		margin-right: 2%;
-		height: 100%;
+		height: 48%;
 	}
 	.ad3{
-		width: 100%;
-		margin-left: 2%;
-		margin-right: 2%;
-height: 100%;
+		width: 86%;
+		margin-left: 5%;
+		margin-right: 5%;
+		margin-top: 2%;
+height: 48%;
+	}
+}
+@media (max-width:  767px){
+	.ad1, .ad2, .ad3{
+		float: left;
+		border: 2px solid black;
+		background-color: gray;
+		
+	}
+	.ad1{
+		width: 94%;
+		margin: 2%;
+		height: 30%;
+	}
+	.ad2{
+		width: 94%;
+		margin: 2%;
+		height: 30%;
+	}
+	.ad3{
+		width: 94%;
+		margin: 2%;
+		height: 30%;
 	}
 }
 h1{
 	margin-bottom: 4%;
 	text-align: center;
-	margin-top: 50px;
+	margin-top: 6%;
+	font-size: 50px;
 }
 
 
 .row{
 	width: 100%;
 	position: relative;
-	background-color: yellow;
 	padding: 2px;
-	height: 300px;
+	height: 600px;
 }
 
 
 .it{
 	border: 2px solid black;
-	width: 30%;
-	background-color: blue;
+	width: 150px;
+	background-color: pink;
    margin: 0;
-height: 20%;
+height: 60px;
 float:right;
+text-align: center;
+font-size: 150%;
+padding-top: 1%;
 }
 p{
-width: 10%;
+width: 20%;
 background-color: gray;
 margin: 20px;
 height: 100px;
 padding: 10px;
 float: left;
+font-size: 24px;
+overflow-y: scroll;
 
 }
 
