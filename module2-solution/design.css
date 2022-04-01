@@ -123,3 +123,11 @@ p.ta{
 	height: 60%;
 
 }
+
+h2.red{
+	background-color: red;
+}
+
+h2.purple{
+	background-color: purple;
+}
